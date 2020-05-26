@@ -1,0 +1,72 @@
+/*===BASE LAYOUT===*/
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: lavender;
+}
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+.container { /*ALL <body> tag elements*/
+    padding: 0px;
+}
+/*===Navigation Layout===*/
+
+.navigation { /*nav section*/
+    margin-top: 15px;
+}
+
+.navigation a { /*nav section <a> tags*/
+    color: black;
+    font-size: 16x;
+}
+
+.nav-item a:hover { /*nav section on hover*/
+    font-weight: bolder;
+    color: blue;
+}
+
+/*===Portfolio Layout===*/
+
+
+
+/*===Contact Layout===*/
+
+.contact h6 { /*contact section <h6> tags*/
+    text-align: center;
+}
+
+.contact a { /*contact section <a> tags*/
+    color: black;
+    margin-left: 5px;
+}
+
+@media (min-width: 768px){
+    .portfolio { /*portfolio section grid display of 2 columns*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .card-body {
+        padding: 20px;
+        width: 100%;
+    }
+  
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1240px;
+    }
+
+    .portfolio  {
+        grid-template-columns: repeat(3, 1fr);
+}
+    
+}   
