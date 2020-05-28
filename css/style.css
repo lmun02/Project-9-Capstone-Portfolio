@@ -29,6 +29,8 @@ hr { /*line breaks*/
 .container { /*ALL <body> tag elements*/
     padding: 0px;
 }
+
+
 /*===Navigation Layout===*/
 
 .navigation { /*nav section*/
@@ -43,6 +45,44 @@ hr { /*line breaks*/
 .nav-item a:hover { /*nav section on hover*/
     border: 1px solid yellow;
 }
+
+
+/*===Alert Layout===*/
+
+.alert { /*alert div in HTML*/
+    padding: 5px;
+    margin-bottom: 5px;
+
+    
+}
+.alert-banner { /*JS alert*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+    padding: 0 10px;
+    background-color: gray;
+    color:whitesmoke;
+    border-radius: 5px;
+    border: solid 1px gray;
+   
+}
+.alert-banner h5{ /*alert text*/
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: auto;
+}
+
+.alert-close { /*alert close*/
+    font-size: 16px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    line-height:20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 
 /*===Portfolio Layout===*/
 
