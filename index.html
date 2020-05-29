@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
     <title>Capstone Portfolio</title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,9 +13,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body class="container">
+
     <header>
     <!--Navigation-->
     <div class="navigation" id="nav-anchor">
@@ -34,27 +37,30 @@
     <!--/Navigation-->
     </header>
 
+
     <main>
-    
     <!--About Me-->
     <span id="about-anchor"></span>
     <h3>About Me</h3>
-    <p class="bio"> <strong>ALOHA!</strong> My name is Lia and I am a newly educated front-end web designer. I have a passion for web development and design. 
-        My ultimate career goal is to work for a company that will allow me as a web developer/designer to continue to create fun, new and exciting web pages.
-        I have only just begun this career journey with TreeHouse a few short months ago & have been loving & learning a ton! 
-    </p>
-    <hr>
 
-    <!--Alert banner-->
+    <div class="about-me">
+        <p class="bio"> <strong class="aloha">ALOHA!</strong> My name is Lia and I am a newly educated front-end web designer. I have a passion for web development and design. 
+            My ultimate career goal is to work for a company that will allow me as a web developer/designer to continue to create fun, new and exciting web pages.
+            I have only just begun this career journey with TreeHouse a few short months ago & have been loving & learning a ton! 
+        </p>
+        <img src="images/rsz_profile.jpg" class="profile" alt="profile">
+    </div>
+
+    <hr>
+    <!--/About Me-->
+
+    <!--Alert Banner JS-->
     <div class="alert" id="alert">
         <!--JS Alert Tag-->
     </div>
-
-    
-    <!--/About Me-->
+    <!--/Alert Banner-->
 
     <!--Portfolio-->
-    
     <span id="portfolio-anchor"></span>
     <h3>Portfolio</h3>
     <section class="portfolio">
@@ -135,19 +141,16 @@
             <a href="" class="email-subscription">Subscribe</a>
         </h6>  
     </div> 
-
-    <div class="return-top">
-        <a href="#nav-anchor" class="back-top"> Back to Top</a>
-    </div> 
     <!--/Contact-->
-
     </main>
 
     <footer>
-
+    <!--Return to Top-->
+        <div class="return-top">
+            <a href="#nav-anchor" class="back-top"> Back to Top</a>
+        </div> 
+    <!--/Return to Top-->
     </footer> 
-
-    <!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -155,6 +158,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   
     <script src="script.js"></script>
-</body>
 
+</body>
 </html>
